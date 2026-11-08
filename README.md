@@ -2,7 +2,7 @@
 
 A two-state Kalman filter (tilt angle and gyro bias) for an ELEGOO Tumbller self-balancing robot. I implemented it in Python, tuned it on recorded IMU data, and replaced the robot's stock angle estimator with it. The robot balances using my filter and ELEGOO's controller.
 
-Video: <VIDEO LINK>
+Video: [<VIDEO LINK>](https://youtu.be/WhMmGBub5ZQ?si=Vmh3gE-xhbO7U2gz)
 
 ![Accelerometer angle, integrated gyro, and Kalman filter angle during a tilt and shake test](figures/stress_final.png)
 
